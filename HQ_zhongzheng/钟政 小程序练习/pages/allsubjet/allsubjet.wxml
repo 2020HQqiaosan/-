@@ -1,0 +1,92 @@
+<!--pages/allsubjet/allsubjet.wxml-->
+<view>  
+  <image src='/icon/yuwen.png'></image>
+  <text class="string1wxss" bindtap='jump_chinese'>语文</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_chinese'>
+    <view class="string2wxss">
+      支持初中语文所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/shuxue.png'></image>
+  <text class="string1wxss" bindtap='jump_maths'>数学</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_maths'>
+    <view class="string2wxss">
+      支持初中数学所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/yingyu.png'></image>
+  <text class="string1wxss" bindtap='jump_english'>英语</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_english'>
+    <view class="string2wxss">
+      支持初中英语所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/wuli.png'></image>
+  <text class="string1wxss" bindtap='jump_physics'>物理</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_physics'>
+    <view class="string2wxss">
+      支持初中物理所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/huaxue.png'></image>
+  <text class="string1wxss" bindtap='jump_chemical'>化学</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_chemical'>
+    <view class="string2wxss">
+      支持初中化学所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/shengwu.png'></image>
+  <text class="string1wxss" bindtap='jump_biology'>生物</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_biology'>
+    <view class="string2wxss">
+      支持初中生物所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/lishi.png'></image>
+  <text class="string1wxss" bindtap='jump_history'>历史</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_history'>
+    <view class="string2wxss">
+      支持初中历史所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/dili.png'></image>
+  <text class="string1wxss" bindtap='jump_geography'>地理</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_geography'>
+    <view class="string2wxss">
+      支持初中地理所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <image src='/icon/zhengzhi.png'></image>
+  <text class="string1wxss" bindtap='jump_politics'>政治</text>
+  <switch achecked="{{ischecked}}" bindchange="switch"  class="switchwxss"></switch>
+  <view bindtap='jump_politics'>
+    <view class="string2wxss">
+      支持初中政治所有教材版本的同步练习，覆盖中考考纲的冲刺总复习
+    </view>
+    <view class='line'></view>
+  </view>
+</view>

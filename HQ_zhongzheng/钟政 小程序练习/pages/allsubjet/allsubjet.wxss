@@ -1,0 +1,24 @@
+/* pages/allsubjet/allsubjet.wxss */
+.string1wxss{
+  color:#505050;
+  font-size: 20px;
+}
+.string2wxss{
+  color:#505050;
+  font-size: 10px;
+  margin-left: 27px;
+  margin-right: 55px;
+}
+.line{
+  background:#ccc;
+  width: 100%;
+  height: 1px;
+  margin:1px;
+}
+.switchwxss{
+  margin-left: 190px;
+}
+image{
+   width: 25px;
+   height: 25px;
+}

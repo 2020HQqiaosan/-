@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/allsubjet/allsubjet",
+    "pages/chinese/chinese",
+    "pages/maths/maths",
+    "pages/english/english",
+    "pages/physics/physics",
+    "pages/chemical/chemical",
+    "pages/biology/biology",
+    "pages/history/history",
+    "pages/geography/geography",
+    "pages/politics/politics",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "全部科目",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#33ccff"
+    
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
